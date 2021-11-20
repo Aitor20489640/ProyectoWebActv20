@@ -6,25 +6,26 @@
     <title>Evento</title>
     <style>
         body {
-            background-color: black;
             background-image: url(maze/Event.png);
-            height: 950px;
-            background-position: 50% 50%;
+            background-color: black;
+            background-position: auto;
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: 1600px 900px;
             position: relative;
         }
-        h1.event{
-            text-align: center;      
+
+        h1.event {
+            text-align: center;
             position: relative;
             right: 0px;
             bottom: -500px;
         }
-        button.end{
-            text-align: center;      
+
+        button.end {
+            text-align: center;
             position: relative;
-            left: 850px;
-            bottom: -600px;
+            left: 750px;
+            top: 600px;
         }
     </style>
 </head>
@@ -34,7 +35,7 @@
         <h1 class="event">El mayor tesoro es la experiencia que has conseguido en este viaje.</h1>
         <button type="button" class="end" onclick="end()">The END</button>
         <script>
-            function end(){
+            function end() {
                 window.location.assign("creditos.html")
             }
         </script>
