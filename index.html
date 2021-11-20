@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Historia</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url(maze/Event.png);
+            height: 950px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: auto;
+            position: relative;
+        }
+        h1.a{
+            text-align: center;      
+            position: relative;
+            right: 0px;
+            bottom: -350px;
+        }
+        h1.b{
+            text-align: center;      
+            position: relative;
+            right: 0px;
+            bottom: -375px;
+        }
+        h1.c{
+            text-align: center;      
+            position: relative;
+            right: 0px;
+            bottom: -400px;
+        }
+        button.entrar{
+            text-align: center;      
+            position: relative;
+            left: 725px;
+            bottom: -450px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 class="a">Eres un aventurero el cual ha escuchado a un bardo cantar sobre <br> un laberinto el cual tiene un gran tesoro.</h1>
+        <h1 class="b">Te preparas para la búsqueda y pelea, ya que según <br> la canción del bardo hay a un monstruo protegiendo el tesoro.</h1>
+        <h1 class="c">Tras semanas de búsqueda, <br> encuentras el laberinto en una cueva de una montaña.</h1>
+        <button type="button" class="entrar" onclick="end()">Entrar</button>
+        <!--El script es utilizado para que el boton funcione.-->
+        <script>
+            function end(){
+                window.location.assign("pag1.html")
+            }
+        </script>
+    </main>
+</body>
+
+</html>

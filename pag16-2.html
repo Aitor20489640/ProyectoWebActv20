@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>maze</title>
+  <style>
+    body {
+      background-image: url(maze/deadend.png);
+      background-color: black;
+      height: 500px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto;
+      position: relative;
+    }
+
+    div.main {
+      color: white;
+      text-align: center;
+      position: absolute;
+      left: 800px;
+      bottom: -100px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="main">
+      <p>Es un camino sin salida.</p>
+      <p>Hacia donde quieres moverte?</p>
+      <button type="button" onclick="button()">Detras</button>
+    </div>
+    <script>
+      function button() {
+        window.location.assign("pag15-2.html")
+      }
+    </script>
+  </main>
+</body>
+
+</html>
