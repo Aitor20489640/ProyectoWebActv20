@@ -6,30 +6,29 @@
     <title>Evento</title>
     <style>
         body {
-            background-color: black;
             background-image: url(maze/Event.png);
-            height: 950px;
-            background-position: 50% 50%;
+            background-color: black;
+            background-position: auto;
             background-repeat: no-repeat;
-            background-size: auto;
+            background-size: 1600px 900px;
             position: relative;
         }
         h1.event{
             text-align: center;      
             position: relative;
             right: 0px;
-            bottom: -500px;
+            top: 400px;
         }
     </style>
 </head>
 
 <body>
     <main>
-        <h1 class="event">Estas siendo teletransportado al inicio espera 3 segundos.</h1>
+        <h1 class="event">Estas siendo teletransportado al inicio espera 5 segundos.</h1>
         <script>
             setTimeout(function () {
                 location.assign("pag1.html");
-            }, 3000);
+            }, 5000);
         </script>
     </main>
 </body>
